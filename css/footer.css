@@ -69,9 +69,14 @@
 
 .footer-container {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
 }
 
 .footer-info {
   margin-right: 120px;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
 }
